@@ -1,0 +1,67 @@
+/* ==================================
+  Base Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+body {
+
+}
+h1 {
+
+}
+h2 {
+
+}
+form {
+
+}
+
+/* ==================================
+  Base Layout Styles
+==================================== */
+
+/* --- Layout Containers --- */
+
+.main-header,
+.main-footer {
+  text-align: center;
+}
+
+.main-header {
+  
+}
+.intro {
+
+}
+.main-footer {
+
+}
+
+/* --- Page Elements --- */
+
+.title {
+
+}
+.headline {
+
+}
+.tagline {
+
+}
+
+
+/* ==================================
+  Form Fieldset Styles
+==================================== */
+
+label {
+
+}
+input {
+
+}
+textarea {
+
+}
