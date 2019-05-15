@@ -120,7 +120,7 @@ label {
 }
 textarea {
   margin-top: 16px;
-  box-shadow: inset 0 1.5px 0 rgba(0,0,0,0.03);
+  background: #fff;
   border-bottom: 1.5px solid rgba(0,0,0, 0.05);
 }
 input:focus,
