@@ -14,91 +14,108 @@
     </header>
 
     <div class="container">
+
       <section class="intro">
         <h2 class="headline">Signup for our newsletter</h2>
         <span class="tagline">Get the latest news on how your code is doing right in your inbox</span>
       </section>
 
+    </div>
+
+    <main>
+
       <form>
 
-        <hr>
+        <div class="container">
 
-        <fieldset>
+          <hr>
 
-          <legend>Contact Information</legend>
+          <fieldset>
 
-          <div class="row">
-            <label for="name">Full Name</label>
-            <input required type="text" id="name" name="user_name" placeholder="Required">
-          </div>
+            <legend>Contact Information</legend>
 
-          <div class="row">
-            <label for="mail">Email Address</label>
-            <input required type="email" id="mail" name="user_email" placeholder="Required">
-          </div>
+            <div class="row">
+              <label for="name">Full Name</label>
+              <input required type="text" id="name" name="user_name" placeholder="Required">
+            </div>
 
-          <div class="row">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="user_phone" placeholder="e.g. 555-123-4567">
-          </div>
+            <div class="row">
+              <label for="mail">Email Address</label>
+              <input required type="email" id="mail" name="user_email" placeholder="Required">
+            </div>
 
-          <div class="row">
-            <label for="address">Street Address</label>
-            <input type="text" id="address" name="user_address" placeholder="e.g. 8495 Miracle Drive, Championsgate">
-          </div>
+            <div class="row">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="user_phone" placeholder="e.g. 555-123-4567">
+            </div>
 
-          <div class="row">
-            <label for="city">City</label>
-            <input type="text" id="city" name="user_city" placeholder="e.g. Orlando">
-          </div>
+            <div class="row">
+              <label for="address">Street Address</label>
+              <input type="text" id="address" name="user_address" placeholder="e.g. 8495 Miracle Drive, Championsgate">
+            </div>
 
-          <div class="row">
-            <label for="state">State</label>
-            <select id="state" name="user_state">
-              <option value="" disabled selected>Choose State</option>
-              <optgroup label="State">
-                <option value="massachusetts">MA</option>
-                <option value="new_hampshire">NH</option>
-                <option value="vermont">VT</option>
-                <option value="maine">ME</option>
-                <option value="connecticut">CT</option>
-                <option value="rhode_island">RI</option>
-              </optgroup>
-            </select>
-          </div>
+            <div class="row">
+              <label for="city">City</label>
+              <input type="text" id="city" name="user_city" placeholder="e.g. Orlando">
+            </div>
 
-          <div class="row">
-            <label for="zip_code">Zip Code</label>
-            <input type="text" id="zip_code" name="user_zip_code" placeholder="e.g. 33896">
-          </div>
+            <div class="row">
+              <label for="state">State</label>
+              <select id="state" name="user_state">
+                <option value="" disabled selected>Choose State</option>
+                <optgroup label="State">
+                  <option value="massachusetts">MA</option>
+                  <option value="new_hampshire">NH</option>
+                  <option value="vermont">VT</option>
+                  <option value="maine">ME</option>
+                  <option value="connecticut">CT</option>
+                  <option value="rhode_island">RI</option>
+                </optgroup>
+              </select>
+            </div>
 
-        </fieldset>
+            <div class="row">
+              <label for="zip_code">Zip Code</label>
+              <input type="text" id="zip_code" name="user_zip_code" placeholder="e.g. 33896">
+            </div>
 
-        <hr>
+          </fieldset>
 
-        <fieldset>
+          <hr>
 
-          <legend class="newsletter">Newsletter</legend>
+        </div>
 
-          <label class="line-height">Select the newsletters you would like to recieve</label>
-          <input type="checkbox" id="html" value="html_newsletter" name="user_newsletter"><label for="html">HTML News</label><br>
-          <input type="checkbox" id="css" value="css_newsletter" name="user_newsletter"><label for="css">CSS News</label><br>
-          <input type="checkbox" id="javascript" value="javascript_newsletter" name="user_newsletter"><label for="javascript">Javascript News</label><br>
+        <div class="grey-container">
 
-          <label>Newsletter format</label>
-          <input type="radio" id="html_format" value="html_format" name="user_newsletter_format"><label for="html_format">HTML</label><br>
-          <input type="radio" id="plain_format" value="plain_format" name="user_newsletter_format"><label for="plain_format">Plain Text</label>
+          <div class="container">
 
-          <label for="user_feedback" class="line-height">Other topics you'd like to hear about</label>
-          <textarea id="user_feedback" name="user_feedback" rows="4"></textarea>
+            <fieldset>
 
-        </fieldset>
+              <legend class="newsletter">Newsletter</legend>
 
-        <input type="submit" value="Sign Up">
+              <label class="line-height">Select the newsletters you would like to recieve</label>
+              <input type="checkbox" id="html" value="html_newsletter" name="user_newsletter"><label for="html">HTML News</label><br>
+              <input type="checkbox" id="css" value="css_newsletter" name="user_newsletter"><label for="css">CSS News</label><br>
+              <input type="checkbox" id="javascript" value="javascript_newsletter" name="user_newsletter"><label for="javascript">Javascript News</label><br>
+
+              <label>Newsletter format</label>
+              <input type="radio" id="html_format" value="html_format" name="user_newsletter_format"><label for="html_format">HTML</label><br>
+              <input type="radio" id="plain_format" value="plain_format" name="user_newsletter_format"><label for="plain_format">Plain Text</label>
+
+              <label for="user_feedback" class="line-height">Other topics you'd like to hear about</label>
+              <textarea id="user_feedback" name="user_feedback" rows="4"></textarea>
+
+            </fieldset>
+
+            <input type="submit" value="Sign Up">
+
+        </div>
+
+      </div>
 
       </form>
 
-    </div>
+    </main>
 
     <footer class="main-footer">
       <span class="copyright">Copyright The Code Review</span>
