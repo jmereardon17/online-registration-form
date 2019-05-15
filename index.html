@@ -76,35 +76,27 @@
 
         <hr>
 
-      </div>
+        <fieldset>
 
-      <div class="grey-container">
+          <legend class="newsletter">Newsletter</legend>
 
-        <div class="container">
+          <label class="line-height">Select the newsletters you would like to recieve</label>
+          <input type="checkbox" id="html" value="html_newsletter" name="user_newsletter"><label for="html">HTML News</label><br>
+          <input type="checkbox" id="css" value="css_newsletter" name="user_newsletter"><label for="css">CSS News</label><br>
+          <input type="checkbox" id="javascript" value="javascript_newsletter" name="user_newsletter"><label for="javascript">Javascript News</label><br>
 
-          <fieldset>
+          <label>Newsletter format</label>
+          <input type="radio" id="html_format" value="html_format" name="user_newsletter_format"><label for="html_format">HTML</label><br>
+          <input type="radio" id="plain_format" value="plain_format" name="user_newsletter_format"><label for="plain_format">Plain Text</label>
 
-            <legend class="newsletter">Newsletter</legend>
+          <label for="user_feedback" class="line-height">Other topics you'd like to hear about</label>
+          <textarea id="user_feedback" name="user_feedback" rows="4"></textarea>
 
-            <label class="line-height">Select the newsletters you would like to recieve</label>
-            <input type="checkbox" id="html" value="html_newsletter" name="user_newsletter"><label for="html">HTML News</label><br>
-            <input type="checkbox" id="css" value="css_newsletter" name="user_newsletter"><label for="css">CSS News</label><br>
-            <input type="checkbox" id="javascript" value="javascript_newsletter" name="user_newsletter"><label for="javascript">Javascript News</label><br>
+        </fieldset>
 
-            <label>Newsletter format</label>
-            <input type="radio" id="html_format" value="html_format" name="user_newsletter_format"><label for="html_format">HTML</label><br>
-            <input type="radio" id="plain_format" value="plain_format" name="user_newsletter_format"><label for="plain_format">Plain Text</label>
+        <input type="submit" value="Sign Up">
 
-            <label for="user_feedback" class="line-height">Other topics you'd like to hear about</label>
-            <textarea id="user_feedback" name="user_feedback" rows="4"></textarea>
-
-          </fieldset>
-
-          <input type="submit" value="Sign Up">
-
-        </form>
-
-      </div>
+      </form>
 
     </div>
 
