@@ -8,4 +8,3 @@ Browsers tested for compatibility:
 - Chrome
 - Firefox
 - Edge
-- Safari

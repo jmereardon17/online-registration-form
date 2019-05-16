@@ -118,6 +118,9 @@ label {
   font-size: .875em;
   margin-bottom: .9em;
 }
+select {
+  height: 50px;
+}
 textarea {
   margin-top: 16px;
   background: #fff;
@@ -129,6 +132,13 @@ select:focus {
   background-color: #fdfee6;
   box-shadow: inset 0 0 0 2px #46698b;
   transition: background-color .5s;
+}
+::-ms-input-placeholder {
+  color: #aab0b5;
+  text-align: right;
+  font-style: italic;
+  font-weight: 300;
+  font-size: .85em;
 }
 ::placeholder {
   color: #aab0b5;
