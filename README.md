@@ -8,3 +8,5 @@ Browsers tested for compatibility:
 - Chrome
 - Firefox
 - Edge
+
+Grade: Exceeds Expectations
