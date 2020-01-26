@@ -119,7 +119,11 @@ label {
   margin-bottom: .9em;
 }
 select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
   height: 50px;
+  color: #aab0b5;
+  background: url("img/sort-icon.svg") no-repeat right #eff0f1;
 }
 textarea {
   margin-top: 16px;
