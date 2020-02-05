@@ -36,7 +36,7 @@
 
             <div class="row">
               <label for="name">Full Name</label>
-              <input required type="text" id="name" name="user_name" placeholder="Required">
+              <input required type="text" id="name" name="user_name" placeholder="Required" autofocus>
             </div>
 
             <div class="row">
@@ -92,12 +92,12 @@
               <legend class="newsletter">Newsletter</legend>
 
               <label class="line-height">Select the newsletters you would like to recieve</label>
-              <input type="checkbox" id="html" value="html_newsletter" name="user_newsletter"><label for="html">HTML News</label><br>
+              <input type="checkbox" id="html" value="html_newsletter" name="user_newsletter" checked><label for="html">HTML News</label><br>
               <input type="checkbox" id="css" value="css_newsletter" name="user_newsletter"><label for="css">CSS News</label><br>
               <input type="checkbox" id="javascript" value="javascript_newsletter" name="user_newsletter"><label for="javascript">Javascript News</label><br>
 
               <label>Newsletter format</label>
-              <input type="radio" id="html_format" value="html_format" name="user_newsletter_format"><label for="html_format">HTML</label><br>
+              <input type="radio" id="html_format" value="html_format" name="user_newsletter_format" checked><label for="html_format">HTML</label><br>
               <input type="radio" id="plain_format" value="plain_format" name="user_newsletter_format"><label for="plain_format">Plain Text</label>
 
               <label for="user_feedback" class="line-height">Other topics you'd like to hear about</label>
